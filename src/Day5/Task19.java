@@ -7,29 +7,29 @@ public class Task19 {
                 moto.getModel() + " - Model " + moto.getColor() + " - color ");
 
     }
-}
 
-class Moto {
-    private final int year;
-    private final String color;
-    private final String model;
+    static class Moto {
+        private final int year;
+        private final String color;
+        private final String model;
 
 
-    public Moto(int year, String color, String model) {
-        this.year = year;
-        this.color = color;
-        this.model = model;
-    }
+        public Moto(int year, String color, String model) {
+            this.year = year;
+            this.color = color;
+            this.model = model;
+        }
 
-    public int getYear() {
-        return year;
-    }
+        public int getYear() {
+            return year;
+        }
 
-    public String getColor() {
-        return color;
-    }
+        public String getColor() {
+            return color;
+        }
 
-    public String getModel() {
-        return model;
+        public String getModel() {
+            return model;
+        }
     }
 }
