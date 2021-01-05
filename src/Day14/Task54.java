@@ -2,6 +2,7 @@ package Day14;
 
 public class Task54 {
     static class Person {
+        public String surname;
         int age;
         String healthInfo;
         String name;
